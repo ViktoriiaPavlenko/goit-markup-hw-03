@@ -1,0 +1,232 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --primary-white-color: #ffffff;
+  --accent-color: #2196f3;
+  --second-background-color: #f5f4fa;
+  --third-background-color: #2f303a;
+  --second-logo-color: #000000;
+  --address-color: rgba(255, 255, 255, 0.6);
+  --button-bgc: #188ce8;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.list,
+.feature-list,
+.workers-list,
+.portfolio-list {
+  list-style: none;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  outline: 2px solid tomato;
+}
+.list,
+.feature-list {
+  padding: 0;
+  margin: 0;
+}
+
+.feature {
+  padding: 0;
+  margin: 0;
+}
+/* Logo */
+.logo {
+  color: var(--accent-color);
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.studio {
+  color: var(--second-logo-color);
+}
+.studio-second {
+  color: var(--primary-white-color);
+}
+
+/* Site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.mail,
+.tel {
+  color: inherit;
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.mail:hover,
+.tel:hover,
+.mail:focus,
+.tel:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  background-color: var(--third-background-color);
+}
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Section */
+.section-title,
+.feature-list .title,
+.workers-list .title,
+.portfolio-title {
+  padding: 0;
+  margin: 0;
+  color: var(--title-text-color);
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.feature-list .title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.description.container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.task.container {
+  padding-bottom: 94px;
+}
+.section-title.coding {
+  margin-bottom: 50px;
+}
+.workers-list .title {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.position {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.section.team {
+  background-color: var(--second-background-color);
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-type {
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+/* Footer */
+.contacts {
+  background-color: var(--third-background-color);
+}
+.second-mail,
+.second-tel {
+  color: var(--address-color);
+
+  font-style: normal;
+  text-decoration: none;
+}
+.second-mail:hover,
+.second-mail:focus,
+.second-tel:hover,
+.second-tel:focus {
+  color: var(--accent-color);
+}
+.address {
+  color: var(--primary-white-color);
+
+  font-style: normal;
+}
+
+/* Buttons */
+.first-button {
+  display: inline-block;
+  border-radius: 4px;
+  border-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 10px 32px;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.first-button:hover,
+.first-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--button-bgc);
+}
+.second-button {
+  display: inline-block;
+  border-radius: 4px;
+  border-color: transparent;
+  padding: 6px 22px;
+  color: var(--title-text-color);
+  background-color: var(--second-background-color);
+  cursor: pointer;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: inherit;
+  text-align: center;
+}
+.second-button:hover,
+.second-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
