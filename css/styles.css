@@ -51,8 +51,6 @@ img {
 }
 /* ------LOGO------ */
 .logo {
-  display: block;
-
   color: var(--accent-color);
 
   font-family: 'Raleway', sans-serif;
@@ -61,10 +59,7 @@ img {
   line-height: 1.2;
   text-decoration: none;
 }
-.main-nav .logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
+
 .footer .logo {
   margin-bottom: 20px;
 }
@@ -77,12 +72,11 @@ img {
 
 /* ------PAGE HEADER------ */
 .page-header {
+  padding-top: 24px;
+  padding-bottom: 25px;
   border-bottom: 1px solid var(--header-border);
 }
-.container.header {
-  display: flex;
-  align-items: center;
-}
+.container.header,
 .main-nav {
   display: flex;
   align-items: center;
@@ -95,10 +89,6 @@ img {
   margin-right: 50px;
 }
 .site-nav .link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-
   color: var(--title-text-color);
 
   font-weight: 500;
