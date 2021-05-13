@@ -65,6 +65,10 @@ img {
 .studio-second {
   color: var(--primary-white-color);
 }
+.footer .logo {
+  display: block;
+  margin-bottom: 20px;
+}
 
 /* ------PAGE HEADER------ */
 .page-header {
@@ -290,11 +294,9 @@ img {
 .footer-address {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
   font-style: normal;
 }
 .second-mail {
-  margin-top: 9px;
   margin-bottom: 9px;
 }
 .contacts {
@@ -317,6 +319,7 @@ img {
   color: var(--accent-color);
 }
 .address {
+  margin-bottom: 9px;
   color: var(--primary-white-color);
 
   font-style: normal;
