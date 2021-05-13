@@ -248,6 +248,11 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.card .link {
+  text-decoration: none;
+
+  color: var(--primary-text-color);
+}
 .portfolio-title {
   margin-bottom: 4px;
   font-weight: 700;
