@@ -51,6 +51,8 @@ img {
 }
 /* ------LOGO------ */
 .logo {
+  display: block;
+
   color: var(--accent-color);
 
   font-family: 'Raleway', sans-serif;
@@ -59,15 +61,18 @@ img {
   line-height: 1.2;
   text-decoration: none;
 }
+.main-nav .logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.footer .logo {
+  margin-bottom: 20px;
+}
 .studio {
   color: var(--second-logo-color);
 }
 .studio-second {
   color: var(--primary-white-color);
-}
-.footer .logo {
-  display: block;
-  margin-bottom: 20px;
 }
 
 /* ------PAGE HEADER------ */
@@ -215,7 +220,6 @@ img {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
 .workers-list-item {
   margin-right: 30px;
 
@@ -227,7 +231,6 @@ img {
 .workers-list-item:last-child {
   margin-right: 0;
 }
-
 .workers-list .title {
   margin-bottom: 10px;
 
